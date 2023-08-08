@@ -1,0 +1,9 @@
+"""3. Escribe un algoritmo que tome una lista de números al azar como parámetro y
+devuelva una nueva lista que contenga solo los números impares."""
+
+
+
+lista_impar= []
+for i in () :
+    if i % 2!=0:
+        lista_impar.append(i)

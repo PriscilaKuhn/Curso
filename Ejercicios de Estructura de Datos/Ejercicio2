@@ -1,0 +1,10 @@
+"""2. Escribe un algoritmo que tome una lista de números como parámetro y devuelva
+una nueva lista que contenga solo los números pares."""
+lista=[1,2,3,4,5,6,7,8,10,12,7,4,20,120,200]
+
+lista_1=[]
+
+for i in lista:
+    if i % 2==0:
+        lista_1.append(i)
+print(f"Nueva lista con solo números pares: ",lista_1)

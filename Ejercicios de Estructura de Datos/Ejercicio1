@@ -1,0 +1,11 @@
+"""Escribe un algoritmo que tome una lista de números como parámetro y devuelva
+la suma de todos los elementos de la lista."""
+
+lista=[1,2,3,4,5,7]
+
+suma=0
+
+for i in lista:
+    suma+=i
+
+print(f"La suma final de la lista es: ", suma)

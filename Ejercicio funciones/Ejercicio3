@@ -1,0 +1,20 @@
+"""3. Escribir un programa que pida al usuario un número entero positivo y muestre por
+pantalla todos los números impares desde 1 hasta ese número separados por
+comas."""
+
+#Ejercicio 3 de carpeta ejercicios con estructuras selectivas, crando funciones
+
+
+def numero_impar(n):
+    lista=[]
+    for i in range(1,n+1):
+        if i % 2 !=0:
+            lista.append(str(i))
+    resultado=", ".join(lista) #Para que no se imprima como lista
+    return resultado
+    
+numero=int(input("Ingrese un número entero positivo: "))
+
+
+print("Números impares" ,numero_impar(numero))
+

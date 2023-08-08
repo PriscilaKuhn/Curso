@@ -1,0 +1,107 @@
+Operadores
+
+--> Operadores aritméticos
+	+ suma
+	- resta
+	* producto
+	** potencia
+	/ división
+	% resto de la división
+	+ --> para concatenar, para unir palabras
+
+Salida: Número resultante
+
+--> Operadores lógicos
+	and
+	or
+	not = negar
+
+
+---> Operadores relacionales 
+	>
+	<
+	==
+	>=
+	<=
+	!=
+Salida: True or False
+
+
+
+Estructura condicionales:
+
+--> if (condicion(operador condicional)):
+	true		#Hasta esta parte en codicional simple
+    	print("mensaje 1")
+     else :
+	false		#Condicional compuesto
+	print("mensaje 2")
+condicional anidado: elif 
+
+
+
+Estructura iterativas:
+	-> For			depende un límite
+	-> While		depende de una condición ,entra si es verdadero. Debe ir un contador, para que incremente. 
+
+A=[f,m,s,k,l]
+
+contador=0
+
+while(True):
+	contador+1=0
+	print(A[contador])
+	if contador == len(A):
+		break	
+
+
+
+Números alaeotrios:
+biblioteca random * 
+ --> randint ,me genera datos alaetorios enteros
+
+
+Colecciones:
+
+*Listas []
+*tuplas()(no se puede modificar)
+*conjuntos {} a diferencia d euna lista no me permite repetir datos, funciones: uniones 
+*diccionarios {clave, valor}  
+
+
+Funciones:
+
+Es reutilizable, generica, legible, limpia el código
+Existen dos tipos:
+---> devuelve valor 
+
+def nombreFuncion (parámetros): ------> los parámetros son la entrada, el input
+
+	Pasos
+
+	return variable_de_salida	
+
+---> no devuelve nada (Procedimiento)
+def nombreFuncion (parámetros): ------> los parámetros son la entrada, el input
+
+	Pasos
+
+	print("  ")
+
+
+lambda -> funcion de orden superior, de tipo objeto
+
+		base=input()
+		altura=()
+
+		area=lambda AreadelTriangulo: (base*altura)/2
+
+		print(f"El area del triangulo es:: {area}")
+
+area=lambda b,a: (b*a)/2
+base=float()
+altura=float()
+
+resultado=area(base,altura)
+
+print({resultado})
